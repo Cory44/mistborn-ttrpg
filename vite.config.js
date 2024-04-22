@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // Adjust this to match your repository name
+  base: '/mistborn-ttrpg/', // Adjust this to match your repository name
   plugins: [react()],
   build: {
     outDir: 'dist', // Specify the output directory for the production build
